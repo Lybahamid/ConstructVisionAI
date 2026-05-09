@@ -1,0 +1,10 @@
+{
+  "name": "ConstructVision",
+  "description": "Real-time construction site safety monitoring system using state-of-the-art vision models for PPE compliance and hazard detection.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "vision"
+  ]
+}

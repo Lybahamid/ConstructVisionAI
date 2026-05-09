@@ -1,0 +1,22 @@
+{
+  "system": {
+    "name": "ConstructVision",
+    "version": "4.2.0",
+    "environment": "Project Alpha-7 Site"
+  },
+  "inference": {
+    "confidenceThreshold": 0.65,
+    "iouThreshold": 0.45,
+    "model": "gemini-3-flash-preview",
+    "scanIntervalMs": 1000
+  },
+  "logging": {
+    "retentionDays": 30,
+    "maxLogSizeMb": 100,
+    "autoExport": false
+  },
+  "ppe": {
+    "required": ["Hard Hat", "Safety Vest"],
+    "optional": ["Gloves", "Safety Glasses"]
+  }
+}

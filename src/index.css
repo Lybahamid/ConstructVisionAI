@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  /* Custom colors for Professional Polish theme */
+  --color-brand: #f97316; /* orange-500 */
+  --color-brand-dark: #ea580c; /* orange-600 */
+  --color-status-success: #10b981; /* emerald-500 */
+  --color-status-error: #ef4444; /* red-500 */
+}
+
+@layer base {
+  body {
+    @apply antialiased text-slate-900 bg-slate-100 overflow-hidden h-screen;
+    font-family: var(--font-sans);
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 5px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-slate-100;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-slate-300 rounded-full hover:bg-slate-400 transition-colors;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
