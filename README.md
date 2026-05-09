@@ -7,10 +7,10 @@ ConstructVision is a professional-grade, AI-powered monitoring platform designed
 [![AI Powered](https://img.shields.io/badge/AI-Gemini_Flash-orange.svg)](https://ai.google.dev/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
+![alt text](/import/ConstructV-ezgif.com-video-to-gif-converter.gif)
+![alt text](/import/2.png)
 ---
-
 ## 🌟 Key Features
-
 - **Live Site Monitoring**: Stream live video directly from site cameras or mobile devices via WebRTC.
 - **Smart PPE Detection**: Automated detection of Hard Hats and Safety Vests with high-precision bounding boxes.
 - **Real-Time Violation Alerts**: Instant visual flagging and logging of safety violations ("No Hard Hat", "No Vest").
