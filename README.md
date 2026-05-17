@@ -10,7 +10,7 @@ ConstructVision is a professional-grade, AI-powered monitoring platform designed
 ![alt text](/import/ConstructV-ezgif.com-video-to-gif-converter.gif)
 ![alt text](/import/2.png)
 ---
-## 🌟 Key Features
+## Key Features
 - **Live Site Monitoring**: Stream live video directly from site cameras or mobile devices via WebRTC.
 - **Smart PPE Detection**: Automated detection of Hard Hats and Safety Vests with high-precision bounding boxes.
 - **Real-Time Violation Alerts**: Instant visual flagging and logging of safety violations ("No Hard Hat", "No Vest").
@@ -20,7 +20,7 @@ ConstructVision is a professional-grade, AI-powered monitoring platform designed
 - **Automated Incident Logging**: Persistent log of violations including high-resolution thumbnails for post-incident review.
 - **Zero-Storage Privacy**: All processing is done in-flight, ensuring minimal data retention unless an incident is logged.
 
-## 🛠️ Technical Architecture
+## Technical Architecture
 
 - **Frontend**: React 19 (TypeScript) + Tailwind CSS + Framer Motion
 - **Vision Engine**: Google Gemini 3 Flash (via `@google/genai`)
@@ -28,7 +28,7 @@ ConstructVision is a professional-grade, AI-powered monitoring platform designed
 - **State Management**: React Hooks & Context API
 - **Charts**: Recharts for data visualization
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -62,21 +62,21 @@ ConstructVision is a professional-grade, AI-powered monitoring platform designed
 5. **Open the application:**
    Navigate to `http://localhost:3000` in your browser.
 
-## 📱 Mobile Usage
+## Mobile Usage
 
 ConstructVision is fully responsive. For field inspections:
 1. Access the dashboard from a smartphone.
 2. Select **Live Stream** mode.
 3. Use the **Switch Camera** button to use the rear-facing camera for site inspections.
 
-## 🛡️ Future Roadmap
+## Future Roadmap
 
 - [ ] Integration with site-wide CCTV/IP Camera streams (RTSP/ONVIF).
 - [ ] SMS/Email notifications for safety managers when high-risk violations occur.
 - [ ] Personnel identification for authorized zone access.
 - [ ] Multi-site coordination from a unified operations center.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
